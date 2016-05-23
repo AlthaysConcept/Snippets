@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        Filter Panel
+      </Title>
+      <Shortcut>filterpanel</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="HTML">
+        <![CDATA[<div id="filter-group" class="panel-group">
+          <div class="panel panel-filter">
+              <div class="panel-heading"  data-toggle="collapse" href="#purchase-request-index-search-collapse">
+                  <h4 class="panel-title">
+                      @Html.Raw(ApplicationString.SEARCHFILTER)
+                  </h4>
+              </div>
+              <div id="purchase-request-index-search-collapse" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <!-- PASTE FORMS HERE -->
+                  </div> 
+              </div>
+          </div>
+      </div>
+      ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
