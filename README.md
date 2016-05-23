@@ -6,8 +6,8 @@ Replace your VisualStudion Code Snippets by this repo
 
 #### HTML Snippets 
 
-Filter Panel 
-Shortcut **filterpanel**
+**Filter Panel**
+shortcut :  **filterpanel**
 ```html
 
 <div id="filter-group" class="panel-group">
@@ -24,5 +24,20 @@ Shortcut **filterpanel**
         </div>
     </div>
 </div>
+
+```
+
+#### C#
+
+** ProcessApiResponse ** shortcut : **PAR**
+```C#
+
+ProcessAPIResponse(response,
+                    ref result,
+                    () => {/* OK */ },
+                    () => { /* Final */ return null; },
+                    () => { /* Unauthorized */ },
+                    () => { /* Error */ },
+                    () => { /* BadRequest */ }
 
 ```
