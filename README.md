@@ -27,7 +27,7 @@ shortcut :  **filterpanel**
 
 ```
 
-#### C#
+#### CSharp
 
 ** ProcessApiResponse ** shortcut : **PAR**
 ```C#
@@ -39,5 +39,43 @@ ProcessAPIResponse(response,
                     () => { /* Unauthorized */ },
                     () => { /* Error */ },
                     () => { /* BadRequest */ }
+
+```
+
+** SQLHelper ** shortcut : **sqlh**
+```C#
+
+SQLHelper sqlh = new SQLHelper("ConnectionString");
+SQLResponse sqlr;
+
+```
+
+** SQL Select fields ** shortcut : **sf**
+```C#
+
+sqlh.Fields.Add("FIELDS");
+sqlh.Table = "TABLE";
+sqlh.Where = "param=@param";
+sqlh.Parameters.Add(new SqlParameter("param", "value"));
+sqlr = sqlh.ExecuteQuery();
+if (sqlr.Success && sqlr.Results.Count > 0)
+{
+    var data = sqlr.Results[0][0];
+}
+sqlh.Clear();
+
+```
+
+** Select Fields (execRowQuery) ** shortcut : **erq**
+```C#
+
+string query = "QUERY";
+sqlh.Parameters.Add(new SqlParameter("param", "value"));
+SQLResponse sqlr = sqlh.ExecuteRawQuery(query, QueryType.);
+if (sqlr.Success && sqlr.Results.Count > 0)
+{
+    var data = sqlr.Results[0][0];
+}
+sqlh.Clear();
 
 ```
