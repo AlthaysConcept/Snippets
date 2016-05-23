@@ -29,7 +29,7 @@ shortcut :  **filterpanel**
 
 #### CSharp Snippets
 
-** ProcessApiResponse ** shortcut : **PAR**
+**ProcessApiResponse** shortcut : **PAR**
 ```C#
 
 ProcessAPIResponse(response,
@@ -42,7 +42,7 @@ ProcessAPIResponse(response,
 
 ```
 
-** SQLHelper ** shortcut : **sqlh**
+**SQLHelper** shortcut : **sqlh**
 ```C#
 
 SQLHelper sqlh = new SQLHelper("ConnectionString");
@@ -50,7 +50,7 @@ SQLResponse sqlr;
 
 ```
 
-** SQL Select fields ** shortcut : **sf**
+**SQL Select fields** shortcut : **sf**
 ```C#
 
 sqlh.Fields.Add("FIELDS");
@@ -66,7 +66,7 @@ sqlh.Clear();
 
 ```
 
-** Select Fields (execRowQuery) ** shortcut : **erq**
+**Select Fields (execRowQuery)** shortcut : **erq**
 ```C#
 
 string query = "QUERY";
