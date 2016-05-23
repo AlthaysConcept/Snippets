@@ -27,7 +27,7 @@ shortcut :  **filterpanel**
 
 ```
 
-#### CSharp
+#### CSharp Snippets
 
 ** ProcessApiResponse ** shortcut : **PAR**
 ```C#
