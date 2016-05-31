@@ -1,7 +1,7 @@
 # Snippets
 Snippets for visual studio
 
-Replace your VisualStudion Code Snippets by this repo
+Replace your VisualStudio Code Snippets by this repo
 
 
 #### HTML Snippets 
