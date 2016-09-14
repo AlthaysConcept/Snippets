@@ -79,3 +79,8 @@ if (sqlr.Success && sqlr.Results.Count > 0)
 sqlh.Clear();
 
 ```
+
+**Create string const for applicationString ** shortcut : **AS**
+```C#
+ public const string STRINGVAR = "value";
+```
