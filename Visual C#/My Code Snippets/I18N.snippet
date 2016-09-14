@@ -4,27 +4,26 @@
   <CodeSnippet Format="1.0.0">
     <Header>
       <Title>
-        SQLHelper
-      </Title>
-      <Shortcut>sqlh</Shortcut>
-    </Header>
-    <Snippet>
-      <Code Language="CSharp">
-        <![CDATA[ SQLHelper sqlh = new SQLHelper("ConnectionString");
-            SQLResponse sqlr;]]>
-      </Code>
-    </Snippet>
-  </CodeSnippet>
-  <CodeSnippet Format="1.0.0">
-    <Header>
-      <Title>
         Application string
       </Title>
       <Shortcut>AS</Shortcut>
     </Header>
     <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>VARNAME</ID>
+          <ToolTip>Name of the variable</ToolTip>
+          <Default>Name</Default>
+        </Literal>
+        <Literal>
+          <ID>STRINGVALUE</ID>
+          <ToolTip>Value of the variable</ToolTip>
+          <Default>value</Default>
+        </Literal>
+      </Declarations>
       <Code Language="CSharp">
-        <![CDATA[ public const string STRINGVAR = "value";]]>
+        <![CDATA[public const string $VARNAME$ = "$STRINGVALUE$";]]>
       </Code>
     </Snippet>
   </CodeSnippet>
+</CodeSnippets>
