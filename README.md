@@ -80,7 +80,7 @@ sqlh.Clear();
 
 ```
 
-**Create string const for applicationString ** shortcut : **AS**
+**Create string const for applicationString** shortcut : **AS**
 ```C#
  public const string STRINGVAR = "value";
 ```
